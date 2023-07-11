@@ -8,18 +8,18 @@ arr = np.array(list)
 print(arr)
 print(type(arr))
 
-matriz = [1,2,3],[4,5,6],[7,8,9]
-matriz = np.array(matriz)
-print(matriz)
+matrix = [1,2,3],[4,5,6],[7,8,9]
+matrix = np.array(matriz)
+print(matrix)
 
 # Index con arrays
 print(arr[0])
 print(arr[0] + arr[5])
 
 # Index con matrizes
-print(matriz[0]) # ingresa a la primera posición de la fila
+print(matrix0]) # ingresa a la primera posición de la fila
 
-print(matriz[0,2]) # ingresa a la primera fila y columna
+print(matrix[0,2]) # ingresa a la primera fila y columna
 
 # Slicing Nos permite extraer varios datos, tiene un comienzo y un final.
 print(arr[1:6])
@@ -40,11 +40,11 @@ arr[-3:]
 Para el caso de las matrices, sucede algo similar.
 Para acceder a los valores entre filas.
 
-matriz[1:]
+matrix[1:]
 ---> array([[4, 5, 6],[7, 8, 9]])
 
 Para acceder a los valores entre filas y columnas.
 
-matriz[1:, 0:2]
+matrix[1:, 0:2]
 ---> array([[4, 5],[7, 8]])
 '''
