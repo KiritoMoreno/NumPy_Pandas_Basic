@@ -4,7 +4,7 @@ import pandas as pd
 #Series
 #Es un arreglo unidimensional indexado
 #Definiendo una lista con índices específicos
-psg_players = pd.Series(['Navas','Neymar','Messi'], index =[1,7,10,30])
+psg_players = pd.Series(['Navas','Mbappe','Neymar','Messi'], index =[1,7,10,30])
 print(psg_players)
 
 #Búsqueda por índices mediante un diccionario
