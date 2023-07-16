@@ -42,4 +42,4 @@ df_books['Rango'] = data
 
 # Para añadir filas se utiliza la función append de Python añadiendo como parámetro una lista, diccionario o añadiendo los valores manualmente.
 #df_books.append(df_books)
-
+print(df_books=pd.concat([df_books,df_books.iloc[0].to_frame().T]))

@@ -30,3 +30,13 @@ df_books.sort_values('Year')
 
 #Ordenar los registros según valores de la columna (orden descendente)
 df_books.sort_values('Year', ascending=False)
+
+# Podemos cambiar el tipo de variable de una columna con la función (.astype())
+df_books['Name'] = df_books['Name'].astype('string')
+df_books['Author'] = df_books['Author'].astype('string')
+df_books['Genre'] = df_books['Genre'].astype('string')
+
+print(df_books.dtypes)
+
+#Ordenar por más de un campo y eligiendo si es en orden ascendente o descendente:
+df_books.sort_values(["Año","Autor"],ascending=[False,True])
